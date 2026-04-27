@@ -49,6 +49,19 @@ Create a `.env` file in the root directory:
 GROQ_API_KEY=your_groq_api_key_here
 ```
 
+## 🐳 Docker (Quick Start)
+You can quickly run the application using the pre-built Docker image:
+
+1. **Pull the image:**
+   ```bash
+   docker pull houslimqn/quizrag
+   ```
+2. **Run the container:**
+   ```bash
+   docker run -p 8501:8501 --env GROQ_API_KEY=your_api_key_here houslimqn/quizrag
+   ```
+3. Open `http://localhost:8501` in your browser.
+
 ## 🎮 How to Use
 1. Run the application:
    ```bash
